@@ -90,7 +90,7 @@ document.getElementById("bStart").onclick= ()=>{
             document.getElementById("bRestart").style.display="none";
             document.getElementById("bStop").style.display="initial";
         }    
-    }, 1);
+    }, 1000);
 }
 
 document.getElementById("bStop").onclick= ()=>{
