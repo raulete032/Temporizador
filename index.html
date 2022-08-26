@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
+    <title>Temporizador</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js" type="module"></script>
+</head>
+<body>
+    
+
+    <div id="container">
+        <div>
+            <h1>Temporizador</h1>
+            <p id="currentTime"></p>
+        </div>
+        <div>
+            <p>En cuanto quieres que suene la alarma:</p>
+            <p id="error"></p>
+            <br>
+            <div id="divTable">
+                <p>Horas</p>
+                <p>Minutos</p>
+                <p>Segundos</p>
+                <input type="number" name="" id="hours" value="0" min="0">
+                <input type="number" name="" id="minutes" value="0" max="59" min="0">
+                <input type="number" name="" id="seconds" value="0" max="59" min="0">
+                <button id="bStart">INICIAR</button>
+                <button id="bRestart">Reiniciar</button>
+                <button id="bStop">PARAR</button>
+            </div>            
+        </div>
+
+        <div>
+            <p>Cuenta atrás:</p>
+            <p id="countdown"></p>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>
